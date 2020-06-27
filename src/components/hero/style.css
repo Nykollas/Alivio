@@ -1,0 +1,43 @@
+.hero-container{
+
+
+}
+
+.hero-container .title{
+    position: absolute;;
+    bottom:280px;
+    left:84px;
+    z-index:2;
+}
+
+.hero-container .title{
+    width:300px;
+}
+
+.hero-container .title p{
+    font-size:42px;
+    font-family: 'Georgia';
+    color:var(--primary-color);
+    font-weight:bold;
+}
+
+.hero-text{
+    position: absolute;;
+    bottom:146px;
+    left:84px;
+    z-index:2;
+    width:340px;
+    text-align: justify;
+}
+
+.hero-text p{
+    font-size: 20px;
+    color:var(--font-color)
+}
+
+.button-container{
+    position: absolute;;
+    bottom:48px;
+    left:84px;
+    z-index:2;
+}

@@ -1,5 +1,7 @@
 import React from 'react';
-
+import  HeroBackground  from '../../assets/images/bg';
+import { Button } from '../button';
+import './style.css';
 export interface IHeroProps {
 
 }
@@ -7,14 +9,17 @@ export interface IHeroProps {
 const Hero: React.FC<IHeroProps> = ({ }) => {
     return (
         <div className={"hero-container"}>
-            i<div>
-                <p>Be aware, Manage well</p>
+            <HeroBackground></HeroBackground>
+            <div className={"title"}>
+                <p>Be aware, Manage well.</p>
             </div>
-            <div>
+            <div className={"hero-text"}>
                 <p> Everyone experiences stress in different ways.
 Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
             </div>
-            <button className={"button"}>Find your way</button>
+            <div className={"button-container"}>
+                <Button label={'Find your way'} height={48} width={120}></Button>
+            </div>
         </div>
     );
 }

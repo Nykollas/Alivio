@@ -1,0 +1,22 @@
+.solution-container{
+    display: flex;
+    flex-direction: column;
+    padding:0px 20vw;
+}
+
+.solution-title{
+
+}
+
+.row{
+
+}
+
+.solution-description{
+    
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}

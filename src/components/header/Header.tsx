@@ -1,4 +1,7 @@
 import React from 'react';
+
+import { Button } from '../button';
+
 import './style.css';
 
 export interface IHeaderProps {
@@ -18,9 +21,7 @@ const Header: React.FC<IHeaderProps> = ({ }) => {
                 <li>Pricing</li>
             </ul>
             <span className={"signin-link"}>Sig In</span>
-            <button className={"button"}>
-                <span>Start Trial</span>
-            </button>
+            <Button label={'Free Trial'} height={32} width={120}></Button>
         </div>
     );
 }

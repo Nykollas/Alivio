@@ -1,0 +1,13 @@
+.button{
+    background-color: var(--primary-color);
+    border:none;
+    padding:8px;
+    width: 112px;
+    border-radius:2px;
+    color:white;
+    cursor:pointer;
+    position: relative;
+}
+.button:active{
+    top:2px;
+}

@@ -1,25 +1,58 @@
 .header-container{
   height:56px;
-  width: 100vw;
+  width: 80vw;
   box-shadow:1px 1px 3px #AAAAAA;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding:0px 10vw;
 }
 
 .logo{
-
+    height:32px;
+    width:8vw;
 }
 
-.logo title{
-
+.logo p{
+    font-size: 24px;
+    width: inherit;
+    color:var(--primary-color);
+    font-weight: bold;
 }
 
 .header-options{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    padding-right: 24vw;
+    list-style-type: none;
+}
 
+.header-options li{
+    margin-left: 32px;
+    color:var(--font-color);
+    cursor:pointer
+}
+.header-options li:hover{
+    transform:scale(1.05)
 }
 
 .signin-link{
-
+    width: 56px;
+    color:var(--font-color);
 }
 
 .signup-button{
-
+    background-color: var(--primary-color);
+    border:none;
+    padding:8px;
+    width: 112px;
+    border-radius:2px;
+    color:white;
+    cursor:pointer;
+    position: relative;
+}
+.signup-button:active{
+    top:2px;
 }

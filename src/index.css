@@ -12,6 +12,11 @@ code {
     monospace;
 }
 
+p{
+  margin: 0px;
+  font-family: 'Lato'
+}
+
 
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
@@ -44,4 +49,10 @@ code {
   font-style: normal;
   font-weight: normal;
   src: local('Georgia Bold Italic'), url('./assets/fonts/georgiaz.woff') format('woff');
+  }
+
+
+  :root{
+    --font-color:#292929;
+    --primary-color:#01996D;
   }

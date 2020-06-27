@@ -9,7 +9,7 @@ const Header: React.FC<IHeaderProps> = ({ }) => {
     return (
         <div className={'header-container'}>
             <div className={"logo"}>
-                <title>Alivio</title>
+                <p>Alivio</p>
             </div>
             <ul className={"header-options"}>
                 <li>Why Alivio</li>
@@ -18,7 +18,7 @@ const Header: React.FC<IHeaderProps> = ({ }) => {
                 <li>Pricing</li>
             </ul>
             <span className={"signin-link"}>Sig In</span>
-            <button className={"signup-button"}>
+            <button className={"button"}>
                 <span>Start Trial</span>
             </button>
         </div>

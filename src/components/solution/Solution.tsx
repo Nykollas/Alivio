@@ -16,7 +16,7 @@ const Solution: React.FC<ISolutionProps> = ({ }) => {
             <div className={"row"}>
                 <div className={"solution-title"}>
                     <p>How it works</p>
-                    <title>Understand & Release the stress in 3 steps</title>
+                    <label>Understand Release the stress in 3 steps</label>
                 </div>
                 <div className={"solution-description"}>
                     <p> Alivio offers as many journals it takes, tackling different areas such as anxiety, overwhelmedness, sadness, or anger, and a variety of personal causes, to help you become aware of your emotions, and guide you in how to manage stress.

@@ -55,6 +55,8 @@ p{
 
   :root{
     --font-color:#292929;
+    --font-number-color:#01996D33;
     --primary-color:#01996D;
-    --background-color:#E5E5E5
+    --background-color:#E5E5E5;
+    --strong-green:#245852
   }

@@ -8,7 +8,7 @@ export interface INumberStepProps {
 const NumberStep: React.FC<INumberStepProps> = ({title, number }) => {
     return (
         <div className={"number-step-container"}>
-            <span>{number}</span>
+            <span>{"0"+number}</span>
             <p>{title}</p>
         </div>
     );

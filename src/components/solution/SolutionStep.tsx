@@ -9,12 +9,12 @@ export interface ISolutionStepProps {
 
 const SolutionStep: React.FC<ISolutionStepProps> = ({data, imgData, number, title }) => {
     return (
-        <div>
+        <div className={"solution-step-container"}>
             <NumberStep 
                     number={number}
                     title={title}>
             </NumberStep>
-            <p>
+            <p className={"solution-step-text"}>
                 {data}
 
             </p>

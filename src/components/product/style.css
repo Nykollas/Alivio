@@ -1,0 +1,113 @@
+.product-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height:600px;
+}
+.product-container li{
+    font-size:12px;
+    color:var(--font-color);
+    margin-bottom: 12px;
+    line-height: 20px;
+}
+.product-container li:last-child{
+
+    margin-bottom: 0px;
+}
+.product-container ul{
+    margin:0px;
+    padding:0px;
+    margin-top: 12px;
+}
+.product-card-container{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    padding: 56px 36px;
+    align-items: flex-end;
+    
+}
+.product-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.product-card{
+    height:260px;
+    width: 250px;
+    display: flex;
+    box-shadow: 1px 1px 1px #cccccc;
+    position: relative;
+    background-color: #fff;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding:24px 12px;
+    border-radius:12px;
+    bottom:220px;
+    right:400px;    
+    align-items: center;
+}
+
+
+.product-card-header{
+    
+    border-bottom:solid 1px var(--font-color);
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+}
+.product-card-header p {
+    color:var(--font-color);
+}
+.product-user-name p{
+    color:var(--font-color);
+    margin-bottom:12px;
+    font-size: 12px;
+}
+.product-title{
+    color:var(--font-color); 
+    font-size: 14px;
+    font-family: 'Georgia';
+    font-weight: bold;
+
+}
+.product-profile-image{
+    height:52px;
+    width: 52px;
+    background-color: gray;
+    border-radius:100px;
+
+    margin-bottom: 18px;
+
+
+}
+
+.product-data-container{
+    flex:1;
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top:56px;
+    justify-content: flex-start;
+}
+
+.data-label{
+    margin-bottom: 56px;
+}
+
+.data-slogan{
+    font-size:32px;
+    color:var(--primary-color);
+    font-family: 'Georgia';
+    font-weight: bold;
+    line-height: 56px;
+    margin-bottom: 48px;
+}
+.data-text{
+    text-align: justify;
+    margin-bottom: 56px;
+    line-height:32px;
+    width: 420px;
+}

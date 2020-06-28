@@ -87,12 +87,12 @@
     line-height: 32px;
 }
 .image-container{
-    box-shadow: 1px 1px 5px gray;
+
     border-radius: 12px;
     position: relative;
 }
 .image-container:hover{
-    box-shadow: 1px 1px 8px gray;
+  
     cursor: pointer;
 }
 .image-container:active{

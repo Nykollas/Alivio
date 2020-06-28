@@ -4,7 +4,8 @@ import { Header } from './components/header';
 import { Hero } from './components/hero';
 import { Solution } from './components/solution';
 import { Video } from './components/video';
-import SolutionStep from './components/solution/SolutionStep';
+import { Product } from './components/product';
+import { Footer } from './components/footer';
 import "./index.css";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Solution></Solution>
       <Video></Video>
       <Product></Product>
+      <Footer></Footer>
     </>
   );
 }

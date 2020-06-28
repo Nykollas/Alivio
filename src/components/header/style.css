@@ -41,5 +41,6 @@
 .signin-link{
     width: 56px;
     color:var(--font-color);
+    cursor:pointer;
 }
 

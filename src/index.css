@@ -15,11 +15,20 @@ code {
 
 p{
   margin: 0px;
-  font-family: 'Lato'
+  font-family: 'Lato';
+  color:var(--font-color);
 }
 
 
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+@font-face {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Avenir'), url('./assets/fonts/AvenirLTStd-Book.otf') format('opentype');
+  }
+
 
 @font-face {
   font-family: 'Georgia Regular';

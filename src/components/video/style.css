@@ -30,13 +30,5 @@
     height:300px;
     width: 450px;
     margin-left:124px;
-    box-shadow: 1px 1px 6px #CCCCCC;
     position:relative
-}
-.video-container:hover{ 
-    box-shadow: 1px 1px 8px #CCCCCC;
-    cursor:pointer
-}
-.video-container:active{
-    top:2px;
 }
